@@ -1,0 +1,40 @@
+main{
+    height: 500px;
+    width: 500px;
+    /* background-color: rgb(179, 170, 116); */
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(25, 21, 21, 0.3);
+    padding: 4px;
+    /* transform: scale(5); */
+    /* transform-origin: 100% 100%; */
+    /* opacity: 0.5; */
+    /* transform: rotate(45deg); */
+    /* transform: translatey(120px);
+    margin-top: 100px; */
+    transition: all 500ms;
+    background: grey;
+    background-image: url(https://images.unsplash.com/photo-1688764896170-e2590678d5f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:hover{
+    transform: translate(-50px, -50px) rotate(360deg) scale(1.5);
+}
+h1 {
+    text-shadow: 2px 2px 8px rgba(117, 193, 102, 0.721);
+  }
+/* opacity transparent the whole background include content */
+/* rgba is used to fade the background color only (In rgba a is known as alpha channel) */
+/* transform translate move towards its width or height */

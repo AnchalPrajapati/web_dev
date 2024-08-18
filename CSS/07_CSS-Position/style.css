@@ -1,0 +1,23 @@
+div{
+    /* position: relative; */
+    background-color: chartreuse;
+    inset: 6px;
+    /* inset give all property(top,bottom,left,right) */
+    /* unset is a default property */
+}
+ul{
+    /* position: sticky; */
+    background-color: blanchedalmond;
+}
+.css{
+    position: relative;
+    background-color: aquamarine;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    /* right: 6px; */
+}
+.js{
+    /* position: fixed; */
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,23 @@
+.square{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    /*  -webkit-print-color-adjust: exact; (this propertu is used to print in chrome as same in the website. */
+    /* there are two types of media print media and screen media */
+}
+@media print and (min-width: 500px) {
+    .square{
+        border: 25px solid red;
+        background-color: cornsilk;
+    }
+}
+
+/* @media (width <= 700px) {
+    .square{
+        border: 25px solid red;
+        background-color: cornsilk;
+    }
+} */

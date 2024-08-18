@@ -1,0 +1,51 @@
+li{
+    font-weight: 700;
+    font-size: 32px;
+}
+.html{
+    color: #D04A1B;
+}
+.css{
+    color: #2540C7;
+}
+.js{
+    color: #D4B830;
+}
+.react{
+    color: #5ED3F3;
+}
+.tailwind{
+    color: #0ea5e9;
+}
+/* #html{
+    font-size: 32px;
+}
+#css{
+    font-size: 32px;
+}
+#js{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+}
+#tailwind{
+    font-size: 32px;
+} */
+
+/* [class]{
+    background-color: gray;
+} */
+/* [anchal="nothing"]{
+    background-color: #D04A1B;
+} */
+ul p{
+    background-color: #2540C7;
+}
+
+h1:hover{
+    color: #2540C7;
+}
+.my-intro:hover{
+    color: #D4B830;
+}

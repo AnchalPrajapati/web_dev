@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+
+.hero-section{
+
+    min-height: 100vh;
+    /* background-color: #F99501; */
+    background-image: url('/images/orange-backdrop\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section p{
+    font-size: 46px;
+    font-family: 'Salsa', cursive;
+    max-width: 13rem;
+}
+.para{
+    margin-left: 15rem;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #FBD8A4;
+}
+.audio-container{
+    display: flex;
+    align-items: center;
+    background-color: #FBD8A4;
+    max-width: 500px;
+    vertical-align: middle;
+    border-radius: 45px;
+    padding-left: 20px;
+}

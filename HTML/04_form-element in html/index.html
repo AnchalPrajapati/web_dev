@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML form</title>
+  </head>
+  <body>
+    
+    <div style="background-color: rgb(240, 237, 237)">
+      <h1 style="text-align: center; text-decoration: underline">GYM</h1>
+      <h5 style="text-align: center">FORMS</h5>
+    </div>
+    <h2 style="text-align: center; color: orange">GP Fitness</h2>
+    
+    <label for="1">Full Name:</label>
+    <form action="/"  style="display: inline;">
+      <input
+        type="text"
+        name="a"
+        id="1"
+        placeholder="Enter Your Name"
+        required
+      />
+      <hr style="color: rgb(248, 243, 243);">
+    </form>
+    <label for="2">Contact Number:</label>
+    <form action="/" style="display: inline;">
+      <input
+        type="number"
+        name="a"
+        id="2"
+        placeholder="Enter Your Number"
+        required
+      />
+      <hr style="color: rgb(248, 243, 243);">
+    </form>
+    <label for="3">Email:</label>
+    <form action="/" style="display: inline;">
+      <input
+        type="email"
+        name="a"
+        id="3"
+        placeholder="Enter Text Email"
+        required
+      />
+      <hr style="color: rgb(248, 243, 243);">
+    </form>
+    <label for="vehicle1">Which class would you like to Participate in?</label>
+    <form action="/" style="display: inline;">
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle1"> Yoga</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle2"> Circuit Training</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle3"> Kidboxing</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle1"> Hit</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle2"> Spin</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1">
+      <label for="vehicle3"> Zumba</label><br /><br>
+    </form>
+    <hr style="color: rgb(248, 243, 243);">
+    <label for="5">On which day(s) would you like to Participate?</label>
+    <form action="/" style="display: inline;">
+      <input type="text" name="a" id="5" placeholder="Enter text here" />
+    </form>
+    <hr>
+    <label for="6">At which time(s) would you like to Participate?</label>
+    <form action="/" style="display: inline;">
+      <input type="text" name="a" id="6" placeholder="Enter text here" />
+    </form>
+    <hr>
+    <form action="/" style="display: inline;">
+        <label for="7">Reason for taking this class:</label>
+        <input type="feedback" id="7" style="height: 20px;">
+        <br>
+        <button type="reset" style="background-color: red; color: white;">Reset</button>
+        <button type="submit" style="background-color: green; color: white;">Submit</button>
+    </form>
+
+    <div hidden>
+      <h1>HTML Form</h1>
+      <h2>youtube Search</h2>
+      <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" />
+        <button>search on youtube</button>
+      </form>
+      <h2>flipkart search</h2>
+      <form action="https://www.flipkart.com/search">
+        <input type="text" name="q" />
+        <button>search on flipkart</button>
+      </form>
+      <h2>my form</h2>
+      <form action="/">
+        <input type="hidden" name="a" />
+        <button>Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>

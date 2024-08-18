@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    height: 400px;
+    width: 600px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    box-shadow: 3px 3px 40px 2px grey;
+    border-radius: 6px;
+    
+}
+a{
+    color: blue;
+}
+#box{
+    width: 100%;
+    height: max-content;
+    /* background-color: bisque; */
+    outline: 1px solid black;
+}
+#box img{
+    margin-top: 6px;
+    width: 30px;
+    vertical-align: middle;
+
+}
+.box span{
+    display: block;
+}
+.box .span1{
+    background-color: aqua;
+}
+.box .span2{
+    background-color: bisque;
+}
+.box .span3{
+    background-color: blue;
+}

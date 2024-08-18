@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    width: 600px;
+}
+section{
+    background-color: blueviolet;
+    width: 50vh;
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 8vw;
+    /* width: 50%;
+    padding: 10%; */
+}
+.box{
+    background-color: chartreuse;
+    box-sizing: border-box;
+    margin: 10vw;
+    
+    /* font-size: 10%;
+    margin: 10%;
+    box-sizing: border-box; */
+}
+/* padding and margin is related to width of a parent if it is in percentage */
+/* 1 em = 16px(font-size) */
+/* font-size can't be less than 6px in some casses */
+/* em is related to it's parent whereas rem is related to it's root element means html tag */

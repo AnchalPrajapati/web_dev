@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+
+}
+
+span {
+    background-color: #90ce90;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 10px solid darkgreen;
+    margin: 25px;
+    display: inline-block;
+}
+
+/* inline-block allow you to apply margin from all side else it will give margin only left and right of the content,it is of two type replaced and non-replaced */
+/* .html{
+    background-color: aquamarine;
+    width: 300px;
+} */
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin: 6px;
+    padding: 5px;
+}
+
+iframe {
+    width: 480px;
+    height: 360px;
+}
+
+video {
+    width: 300px;
+}
